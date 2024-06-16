@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body h1 {
+    font-family: 'Raleway', sans-serif;
+}
+
+body .special, button, Link {
+    font-family: 'Dancing Script', cursive;
+}
+
+body p {
+    font-family: 'Merriweather', serif;
+}

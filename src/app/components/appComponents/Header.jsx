@@ -81,7 +81,7 @@ const Header = () => {
             <li>
               <Link
                 href={"/"}
-                className="py-4 md:py-0 md:px-5 w-full flex items-center justify-center hover:bg-[#0e1f0e] transition-all ease-in-out duration-500"
+                className="py-4 md:py-0 md:px-5 w-full flex items-center justify-center hover:bg-[#3f8a3f] transition-all ease-in-out duration-500"
                 onClick={toggleVisibility}
               >
                 Home
@@ -90,7 +90,7 @@ const Header = () => {
             <li>
               <Link
                 href={"/about"}
-                className="py-4 md:py-0 md:px-5 w-full flex items-center justify-center hover:bg-[#0e1f0e]  transition-all ease-in-out duration-500"
+                className="py-4 md:py-0 md:px-5 w-full flex items-center justify-center hover:bg-[#3f8a3f]  transition-all ease-in-out duration-500"
                 onClick={toggleVisibility}
               >
                 About us
@@ -99,7 +99,7 @@ const Header = () => {
             <li>
               <Link
                 href={"/services"}
-                className="py-4 md:py-0 md:px-5 w-full flex items-center justify-center hover:bg-[#0e1f0e]  transition-all ease-in-out duration-500"
+                className="py-4 md:py-0 md:px-5 w-full flex items-center justify-center hover:bg-[#3f8a3f]  transition-all ease-in-out duration-500"
                 onClick={toggleVisibility}
               >
                 Services
@@ -108,7 +108,7 @@ const Header = () => {
             <li>
               <Link
                 href={"/contact"}
-                className="py-4 md:py-0 md:px-5 w-full flex items-center justify-center hover:bg-[#0e1f0e]  transition-all ease-in-out duration-500"
+                className="py-4 md:py-0 md:px-5 w-full flex items-center justify-center hover:bg-[#3f8a3f]  transition-all ease-in-out duration-500"
                 onClick={toggleVisibility}
               >
                 Contact us
@@ -117,7 +117,7 @@ const Header = () => {
             <li>
               <Link
                 href={"/login"}
-                className="py-4 md:py-0 md:px-5 w-full flex items-center justify-center hover:bg-[#0e1f0e]  transition-all ease-in-out duration-500"
+                className="py-4 md:py-0 md:px-5 w-full flex items-center justify-center hover:bg-[#3f8a3f]  transition-all ease-in-out duration-500"
                 onClick={toggleVisibility}
               >
                 Log In

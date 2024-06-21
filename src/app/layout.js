@@ -1,6 +1,7 @@
 import { Raleway, Dancing_Script, Merriweather } from "next/font/google";
 import "./globals.css";
 import Header from "./components/appComponents/Header";
+import { Toaster } from "react-hot-toast";
 
 const raleway = Raleway({ subsets: ["latin"] });
 const dancingScript = Dancing_Script({ subsets: ["latin"] });
@@ -20,8 +21,14 @@ export default function RootLayout({ children }) {
         <meta name="description" content={metadata.description} />
       </head>
       <body className={`${raleway.className} ${dancingScript.className} ${merriweather.className}`}>
-      <Header />
-        {children}</body>
+        <div className="w-full">
+          <div className="w-full max-w-[1600px] mx-auto">
+            <Header />
+            {children}
+            <Toaster />
+          </div>
+        </div>
+      </body>
     </html>
   );
 }
